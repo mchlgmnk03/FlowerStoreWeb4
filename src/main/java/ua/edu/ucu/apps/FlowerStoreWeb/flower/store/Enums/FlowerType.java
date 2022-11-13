@@ -1,9 +1,7 @@
-package ua.edu.ucu.apps.FlowerStoreWeb.flower.store;
+package ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Enums;
 
 public enum FlowerType {
-    /**
-     * Flower types.
-     */
+
     CHAMOMILE("Chamomile"), ROSE("Rose"), TULIP("Tulip");
     private final String stringRepresentation;
 

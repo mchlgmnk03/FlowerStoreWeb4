@@ -1,11 +1,8 @@
-package ua.edu.ucu.apps.FlowerStoreWeb.Controllers;
+package ua.edu.ucu.apps.FlowerStoreWeb.Payment;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ua.edu.ucu.apps.FlowerStoreWeb.Payment.CreditCard;
-import ua.edu.ucu.apps.FlowerStoreWeb.Payment.PayPal;
-import ua.edu.ucu.apps.FlowerStoreWeb.Payment.Payment;
 
 import java.util.Arrays;
 import java.util.List;

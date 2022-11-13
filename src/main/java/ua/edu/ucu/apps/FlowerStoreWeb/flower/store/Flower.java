@@ -2,23 +2,31 @@ package ua.edu.ucu.apps.FlowerStoreWeb.flower.store;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
+import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Enums.FlowerColor;
+import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Enums.FlowerType;
 
+import javax.persistence.*;
 
-
-@Setter @AllArgsConstructor
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table
+@Getter
 public class Flower extends Item {
-    @Getter
+    @Id
+    @GeneratedValue
+    private int id;
     private double sepalLength;
+    @Enumerated(EnumType.STRING)
     private FlowerColor color;
-    @Getter
     private double price;
-    @Getter
+    @Enumerated(EnumType.STRING)
     private FlowerType flowerType;
     private final String description = "This is a flower.";
 
-//    public Flower(double sepalLength, FlowerColor color, double price, FlowerType){}
-    public Flower(){}
     public String getColor() {
         return color.toString();
     }

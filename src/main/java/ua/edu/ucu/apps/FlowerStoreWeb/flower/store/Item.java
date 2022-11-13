@@ -2,14 +2,12 @@ package ua.edu.ucu.apps.FlowerStoreWeb.flower.store;
 
 import lombok.Getter;
 
-public class Item {
-    @Getter
+public abstract class Item {
     private String description;
-    @Getter
-    private double price;
 
     public String getDescription() {
         return description;
     }
 
+    public abstract double getPrice();
 }

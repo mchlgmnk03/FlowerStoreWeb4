@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
-    private List<FlowerBucket> flowerBucketList  = new ArrayList<>();
+    private List<FlowerBucket> flowerBucketList = new ArrayList<>();
 
     boolean search(FlowerBucket bucket) {
         for (FlowerBucket item : flowerBucketList) {

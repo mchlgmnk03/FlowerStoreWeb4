@@ -1,9 +1,6 @@
-package ua.edu.ucu.apps.FlowerStoreWeb.flower.store;
+package ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Enums;
 
 public enum FlowerColor {
-    /**
-     * Flower colors.
-     */
     RED("#FF0000"), BLUE("#0000FF"), WHITE("#FFFFFF");
     private final String stringRepresentation;
 

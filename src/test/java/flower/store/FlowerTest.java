@@ -7,7 +7,7 @@ import java.util.Random;
 
 import org.junit.jupiter.api.Assertions;
 import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Flower;
-import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.FlowerColor;
+import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Enums.FlowerColor;
 
 public class FlowerTest {
     private static final Random RANDOM_GENERATOR = new Random();

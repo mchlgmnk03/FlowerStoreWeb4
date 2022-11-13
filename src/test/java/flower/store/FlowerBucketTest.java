@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions;
 import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Flower;
 import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.FlowerBucket;
 import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.FlowerPack;
-import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Rose;
+import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Flowers.Rose;
 
 import java.util.Random;
 
