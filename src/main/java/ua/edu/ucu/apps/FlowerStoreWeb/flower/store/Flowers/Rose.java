@@ -7,7 +7,7 @@ import ua.edu.ucu.apps.FlowerStoreWeb.flower.store.Flower;
 public class Rose extends Flower {
 
     public Rose() {
-        super();
+//        super();
         this.setColor(FlowerColor.RED);
         this.setFlowerType(FlowerType.ROSE);
     }
